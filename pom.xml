@@ -490,7 +490,8 @@
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-jxr-plugin</artifactId>
                         <version>2.1</version>
-                    </plugin><distributionManagement>
+                    </plugin>
+     <distributionManagement>
     <repository>
         <id>central</id>
         <name>Artifactory-releases</name>
