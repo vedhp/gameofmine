@@ -496,10 +496,15 @@
         </profile>
     </profiles>
      <distributionManagement>
-	<repository>
+    <repository>
         <id>central</id>
         <name>Artifactory-releases</name>
-        <url>http://192.168.0.26:8081/artifactory/libs-release</url>
+        <url>http://192.168.0.26:8081/artifactory/Chanu-Raghu</url>
     </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>Artifactory-snapshots</name>
+        <url>http://192.168.0.26:8081/artifactory/Chanu-Raghu</url>
+    </snapshotRepository>
 </distributionManagement>
 </project>
