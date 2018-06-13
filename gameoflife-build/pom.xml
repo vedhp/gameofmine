@@ -4,7 +4,7 @@
     <parent>
         <artifactId>gameoflife</artifactId>
         <groupId>com.wakaleo.gameoflife</groupId>
-        <version>SNAPSHOT-1.2.${v}</version>
+        <version>SNAPSHOT-1.2</version>
     </parent>
     <artifactId>gameoflife-build</artifactId>
     <packaging>jar</packaging>
