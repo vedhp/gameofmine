@@ -491,6 +491,10 @@
                         <artifactId>maven-jxr-plugin</artifactId>
                         <version>2.1</version>
                     </plugin>
+                </plugins>
+            </reporting>
+        </profile>
+    </profiles>
      <distributionManagement>
     <repository>
         <id>central</id>
@@ -503,9 +507,4 @@
         <url>http://192.168.0.26:8081/artifactory/Chanu-Raghu</url>
     </snapshotRepository>
 </distributionManagement>
-                </plugins>
-            </reporting>
-        </profile>
-    </profiles>
-    
 </project>
